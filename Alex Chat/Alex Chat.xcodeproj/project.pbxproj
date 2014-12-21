@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8483D45C1A46DA0200FD2E86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8483D45B1A46DA0200FD2E86 /* main.m */; };
+		8483D45F1A46DA0200FD2E86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8483D45E1A46DA0200FD2E86 /* AppDelegate.m */; };
+		8483D4621A46DA0200FD2E86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8483D4611A46DA0200FD2E86 /* ViewController.m */; };
+		8483D4651A46DA0200FD2E86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8483D4631A46DA0200FD2E86 /* Main.storyboard */; };
+		8483D4671A46DA0200FD2E86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8483D4661A46DA0200FD2E86 /* Images.xcassets */; };
+		8483D46A1A46DA0200FD2E86 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8483D4681A46DA0200FD2E86 /* LaunchScreen.xib */; };
+		8483D4761A46DA0200FD2E86 /* Alex_ChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8483D4751A46DA0200FD2E86 /* Alex_ChatTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8483D4701A46DA0200FD2E86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8483D44E1A46DA0200FD2E86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8483D4551A46DA0200FD2E86;
+			remoteInfo = "Alex Chat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8483D4561A46DA0200FD2E86 /* Alex Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alex Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8483D45A1A46DA0200FD2E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8483D45B1A46DA0200FD2E86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8483D45D1A46DA0200FD2E86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8483D45E1A46DA0200FD2E86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8483D4601A46DA0200FD2E86 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8483D4611A46DA0200FD2E86 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8483D4641A46DA0200FD2E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8483D4661A46DA0200FD2E86 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8483D4691A46DA0200FD2E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8483D46F1A46DA0200FD2E86 /* Alex ChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alex ChatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8483D4741A46DA0200FD2E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8483D4751A46DA0200FD2E86 /* Alex_ChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Alex_ChatTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8483D4531A46DA0200FD2E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8483D46C1A46DA0200FD2E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8483D44D1A46DA0200FD2E86 = {
+			isa = PBXGroup;
+			children = (
+				8483D4581A46DA0200FD2E86 /* Alex Chat */,
+				8483D4721A46DA0200FD2E86 /* Alex ChatTests */,
+				8483D4571A46DA0200FD2E86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8483D4571A46DA0200FD2E86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8483D4561A46DA0200FD2E86 /* Alex Chat.app */,
+				8483D46F1A46DA0200FD2E86 /* Alex ChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8483D4581A46DA0200FD2E86 /* Alex Chat */ = {
+			isa = PBXGroup;
+			children = (
+				8483D45D1A46DA0200FD2E86 /* AppDelegate.h */,
+				8483D45E1A46DA0200FD2E86 /* AppDelegate.m */,
+				8483D4601A46DA0200FD2E86 /* ViewController.h */,
+				8483D4611A46DA0200FD2E86 /* ViewController.m */,
+				8483D4631A46DA0200FD2E86 /* Main.storyboard */,
+				8483D4661A46DA0200FD2E86 /* Images.xcassets */,
+				8483D4681A46DA0200FD2E86 /* LaunchScreen.xib */,
+				8483D4591A46DA0200FD2E86 /* Supporting Files */,
+			);
+			path = "Alex Chat";
+			sourceTree = "<group>";
+		};
+		8483D4591A46DA0200FD2E86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8483D45A1A46DA0200FD2E86 /* Info.plist */,
+				8483D45B1A46DA0200FD2E86 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8483D4721A46DA0200FD2E86 /* Alex ChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				8483D4751A46DA0200FD2E86 /* Alex_ChatTests.m */,
+				8483D4731A46DA0200FD2E86 /* Supporting Files */,
+			);
+			path = "Alex ChatTests";
+			sourceTree = "<group>";
+		};
+		8483D4731A46DA0200FD2E86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8483D4741A46DA0200FD2E86 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8483D4551A46DA0200FD2E86 /* Alex Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8483D4791A46DA0200FD2E86 /* Build configuration list for PBXNativeTarget "Alex Chat" */;
+			buildPhases = (
+				8483D4521A46DA0200FD2E86 /* Sources */,
+				8483D4531A46DA0200FD2E86 /* Frameworks */,
+				8483D4541A46DA0200FD2E86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alex Chat";
+			productName = "Alex Chat";
+			productReference = 8483D4561A46DA0200FD2E86 /* Alex Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8483D46E1A46DA0200FD2E86 /* Alex ChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8483D47C1A46DA0200FD2E86 /* Build configuration list for PBXNativeTarget "Alex ChatTests" */;
+			buildPhases = (
+				8483D46B1A46DA0200FD2E86 /* Sources */,
+				8483D46C1A46DA0200FD2E86 /* Frameworks */,
+				8483D46D1A46DA0200FD2E86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8483D4711A46DA0200FD2E86 /* PBXTargetDependency */,
+			);
+			name = "Alex ChatTests";
+			productName = "Alex ChatTests";
+			productReference = 8483D46F1A46DA0200FD2E86 /* Alex ChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8483D44E1A46DA0200FD2E86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Alex Tsiganov";
+				TargetAttributes = {
+					8483D4551A46DA0200FD2E86 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					8483D46E1A46DA0200FD2E86 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 8483D4551A46DA0200FD2E86;
+					};
+				};
+			};
+			buildConfigurationList = 8483D4511A46DA0200FD2E86 /* Build configuration list for PBXProject "Alex Chat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8483D44D1A46DA0200FD2E86;
+			productRefGroup = 8483D4571A46DA0200FD2E86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8483D4551A46DA0200FD2E86 /* Alex Chat */,
+				8483D46E1A46DA0200FD2E86 /* Alex ChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8483D4541A46DA0200FD2E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8483D4651A46DA0200FD2E86 /* Main.storyboard in Resources */,
+				8483D46A1A46DA0200FD2E86 /* LaunchScreen.xib in Resources */,
+				8483D4671A46DA0200FD2E86 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8483D46D1A46DA0200FD2E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8483D4521A46DA0200FD2E86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8483D4621A46DA0200FD2E86 /* ViewController.m in Sources */,
+				8483D45F1A46DA0200FD2E86 /* AppDelegate.m in Sources */,
+				8483D45C1A46DA0200FD2E86 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8483D46B1A46DA0200FD2E86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8483D4761A46DA0200FD2E86 /* Alex_ChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8483D4711A46DA0200FD2E86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8483D4551A46DA0200FD2E86 /* Alex Chat */;
+			targetProxy = 8483D4701A46DA0200FD2E86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8483D4631A46DA0200FD2E86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8483D4641A46DA0200FD2E86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8483D4681A46DA0200FD2E86 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8483D4691A46DA0200FD2E86 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8483D4771A46DA0200FD2E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8483D4781A46DA0200FD2E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8483D47A1A46DA0200FD2E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Alex Chat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8483D47B1A46DA0200FD2E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Alex Chat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8483D47D1A46DA0200FD2E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Alex ChatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alex Chat.app/Alex Chat";
+			};
+			name = Debug;
+		};
+		8483D47E1A46DA0200FD2E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Alex ChatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alex Chat.app/Alex Chat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8483D4511A46DA0200FD2E86 /* Build configuration list for PBXProject "Alex Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8483D4771A46DA0200FD2E86 /* Debug */,
+				8483D4781A46DA0200FD2E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8483D4791A46DA0200FD2E86 /* Build configuration list for PBXNativeTarget "Alex Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8483D47A1A46DA0200FD2E86 /* Debug */,
+				8483D47B1A46DA0200FD2E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8483D47C1A46DA0200FD2E86 /* Build configuration list for PBXNativeTarget "Alex ChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8483D47D1A46DA0200FD2E86 /* Debug */,
+				8483D47E1A46DA0200FD2E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8483D44E1A46DA0200FD2E86 /* Project object */;
+}
