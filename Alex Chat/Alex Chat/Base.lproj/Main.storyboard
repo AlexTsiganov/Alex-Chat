@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +15,74 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RW3-OI-6HR">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="258"/>
+                                <subviews>
+                                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="efM-MB-vlC">
+                                        <rect key="frame" x="417" y="19" width="20" height="20"/>
+                                        <color key="color" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </activityIndicatorView>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1001" borderStyle="roundedRect" placeholder="Port" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PJ3-jE-27Z">
+                                        <rect key="frame" x="356" y="14" width="53" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="53" id="Ag1-3h-UhD"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e5r-aj-aow">
+                                        <rect key="frame" x="152" y="52" width="113" height="30"/>
+                                        <state key="normal" title="Stop chat server">
+                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onStopServerButtonClick" destination="BYZ-38-t0r" eventType="touchUpInside" id="NgH-94-LWa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LXP-bO-bfc">
+                                        <rect key="frame" x="152" y="14" width="196" height="30"/>
+                                        <state key="normal" title="Start chat server with a port:">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onStartServerButtonClick" destination="BYZ-38-t0r" eventType="touchUpInside" id="OD9-8S-XaZ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.97882287829304326" green="1" blue="0.86495169759624757" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="efM-MB-vlC" firstAttribute="centerY" secondItem="PJ3-jE-27Z" secondAttribute="centerY" id="01b-Kz-KNl"/>
+                                    <constraint firstItem="e5r-aj-aow" firstAttribute="top" secondItem="LXP-bO-bfc" secondAttribute="bottom" constant="8" id="1Hd-ZD-1Ia"/>
+                                    <constraint firstItem="PJ3-jE-27Z" firstAttribute="leading" secondItem="LXP-bO-bfc" secondAttribute="trailing" constant="8" id="Kz4-tf-ccx"/>
+                                    <constraint firstAttribute="height" constant="258" id="Lod-2g-geV"/>
+                                    <constraint firstItem="PJ3-jE-27Z" firstAttribute="centerY" secondItem="LXP-bO-bfc" secondAttribute="centerY" id="Ocd-Gs-l8s"/>
+                                    <constraint firstAttribute="centerX" secondItem="LXP-bO-bfc" secondAttribute="centerX" constant="50" id="PPw-eZ-g2V">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="35"/>
+                                    </constraint>
+                                    <constraint firstItem="LXP-bO-bfc" firstAttribute="leading" secondItem="e5r-aj-aow" secondAttribute="leading" id="RpD-ZC-hb2"/>
+                                    <constraint firstItem="efM-MB-vlC" firstAttribute="leading" secondItem="PJ3-jE-27Z" secondAttribute="trailing" constant="8" id="XYx-RS-T3k"/>
+                                    <constraint firstItem="LXP-bO-bfc" firstAttribute="top" secondItem="RW3-OI-6HR" secondAttribute="top" constant="22" id="lv9-Td-dmw"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RW3-OI-6HR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bI9-cH-RPG"/>
+                            <constraint firstItem="RW3-OI-6HR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="k85-io-9rx"/>
+                            <constraint firstAttribute="trailing" secondItem="RW3-OI-6HR" secondAttribute="trailing" id="zeb-OX-NQX"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnStartChat" destination="LXP-bO-bfc" id="WxG-Hs-Msc"/>
+                        <outlet property="indicator" destination="efM-MB-vlC" id="Rhy-CE-bsk"/>
+                        <outlet property="tfPortNumber" destination="PJ3-jE-27Z" id="x7M-Pq-9hV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="139" y="140"/>
         </scene>
     </scenes>
 </document>

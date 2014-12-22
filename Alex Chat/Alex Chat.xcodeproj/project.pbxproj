@@ -7,26 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840123C91A48ABE80013CC21 /* MyServer.c in Sources */ = {isa = PBXBuildFile; fileRef = 840123C71A48ABE80013CC21 /* MyServer.c */; };
+		840123CB1A48AFD00013CC21 /* echoclnt.c in Sources */ = {isa = PBXBuildFile; fileRef = 840123CA1A48AFD00013CC21 /* echoclnt.c */; };
+		844BEEF91A48947F00690AB7 /* MySoketAPI.c in Sources */ = {isa = PBXBuildFile; fileRef = 844BEEF71A48947F00690AB7 /* MySoketAPI.c */; };
+		844BEEFD1A48A75700690AB7 /* echoserv.c in Sources */ = {isa = PBXBuildFile; fileRef = 844BEEFA1A48A75700690AB7 /* echoserv.c */; };
+		844BEEFE1A48A75700690AB7 /* helper.c in Sources */ = {isa = PBXBuildFile; fileRef = 844BEEFB1A48A75700690AB7 /* helper.c */; };
 		8483D45C1A46DA0200FD2E86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8483D45B1A46DA0200FD2E86 /* main.m */; };
 		8483D45F1A46DA0200FD2E86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8483D45E1A46DA0200FD2E86 /* AppDelegate.m */; };
 		8483D4621A46DA0200FD2E86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8483D4611A46DA0200FD2E86 /* ViewController.m */; };
 		8483D4651A46DA0200FD2E86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8483D4631A46DA0200FD2E86 /* Main.storyboard */; };
 		8483D4671A46DA0200FD2E86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8483D4661A46DA0200FD2E86 /* Images.xcassets */; };
 		8483D46A1A46DA0200FD2E86 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8483D4681A46DA0200FD2E86 /* LaunchScreen.xib */; };
-		8483D4761A46DA0200FD2E86 /* Alex_ChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8483D4751A46DA0200FD2E86 /* Alex_ChatTests.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		8483D4701A46DA0200FD2E86 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8483D44E1A46DA0200FD2E86 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8483D4551A46DA0200FD2E86;
-			remoteInfo = "Alex Chat";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		840123C71A48ABE80013CC21 /* MyServer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MyServer.c; sourceTree = "<group>"; };
+		840123C81A48ABE80013CC21 /* MyServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyServer.h; sourceTree = "<group>"; };
+		840123CA1A48AFD00013CC21 /* echoclnt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = echoclnt.c; sourceTree = "<group>"; };
+		844BEEF71A48947F00690AB7 /* MySoketAPI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MySoketAPI.c; sourceTree = "<group>"; };
+		844BEEF81A48947F00690AB7 /* MySoketAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySoketAPI.h; sourceTree = "<group>"; };
+		844BEEFA1A48A75700690AB7 /* echoserv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = echoserv.c; sourceTree = "<group>"; };
+		844BEEFB1A48A75700690AB7 /* helper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = helper.c; sourceTree = "<group>"; };
+		844BEEFC1A48A75700690AB7 /* helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helper.h; sourceTree = "<group>"; };
 		8483D4561A46DA0200FD2E86 /* Alex Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alex Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8483D45A1A46DA0200FD2E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8483D45B1A46DA0200FD2E86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,20 +39,12 @@
 		8483D4641A46DA0200FD2E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8483D4661A46DA0200FD2E86 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8483D4691A46DA0200FD2E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		8483D46F1A46DA0200FD2E86 /* Alex ChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alex ChatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8483D4741A46DA0200FD2E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8483D4751A46DA0200FD2E86 /* Alex_ChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Alex_ChatTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8483D4531A46DA0200FD2E86 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8483D46C1A46DA0200FD2E86 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				8483D4561A46DA0200FD2E86 /* Alex Chat.app */,
-				8483D46F1A46DA0200FD2E86 /* Alex ChatTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +74,14 @@
 		8483D4581A46DA0200FD2E86 /* Alex Chat */ = {
 			isa = PBXGroup;
 			children = (
+				840123CA1A48AFD00013CC21 /* echoclnt.c */,
+				840123C71A48ABE80013CC21 /* MyServer.c */,
+				840123C81A48ABE80013CC21 /* MyServer.h */,
+				844BEEFA1A48A75700690AB7 /* echoserv.c */,
+				844BEEFB1A48A75700690AB7 /* helper.c */,
+				844BEEFC1A48A75700690AB7 /* helper.h */,
+				844BEEF71A48947F00690AB7 /* MySoketAPI.c */,
+				844BEEF81A48947F00690AB7 /* MySoketAPI.h */,
 				8483D45D1A46DA0200FD2E86 /* AppDelegate.h */,
 				8483D45E1A46DA0200FD2E86 /* AppDelegate.m */,
 				8483D4601A46DA0200FD2E86 /* ViewController.h */,
@@ -139,24 +140,6 @@
 			productReference = 8483D4561A46DA0200FD2E86 /* Alex Chat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8483D46E1A46DA0200FD2E86 /* Alex ChatTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8483D47C1A46DA0200FD2E86 /* Build configuration list for PBXNativeTarget "Alex ChatTests" */;
-			buildPhases = (
-				8483D46B1A46DA0200FD2E86 /* Sources */,
-				8483D46C1A46DA0200FD2E86 /* Frameworks */,
-				8483D46D1A46DA0200FD2E86 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8483D4711A46DA0200FD2E86 /* PBXTargetDependency */,
-			);
-			name = "Alex ChatTests";
-			productName = "Alex ChatTests";
-			productReference = 8483D46F1A46DA0200FD2E86 /* Alex ChatTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +151,6 @@
 				TargetAttributes = {
 					8483D4551A46DA0200FD2E86 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					8483D46E1A46DA0200FD2E86 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 8483D4551A46DA0200FD2E86;
 					};
 				};
 			};
@@ -189,7 +168,6 @@
 			projectRoot = "";
 			targets = (
 				8483D4551A46DA0200FD2E86 /* Alex Chat */,
-				8483D46E1A46DA0200FD2E86 /* Alex ChatTests */,
 			);
 		};
 /* End PBXProject section */
@@ -205,13 +183,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8483D46D1A46DA0200FD2E86 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -220,28 +191,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				8483D4621A46DA0200FD2E86 /* ViewController.m in Sources */,
+				844BEEFE1A48A75700690AB7 /* helper.c in Sources */,
+				844BEEFD1A48A75700690AB7 /* echoserv.c in Sources */,
+				840123CB1A48AFD00013CC21 /* echoclnt.c in Sources */,
+				840123C91A48ABE80013CC21 /* MyServer.c in Sources */,
 				8483D45F1A46DA0200FD2E86 /* AppDelegate.m in Sources */,
 				8483D45C1A46DA0200FD2E86 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8483D46B1A46DA0200FD2E86 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8483D4761A46DA0200FD2E86 /* Alex_ChatTests.m in Sources */,
+				844BEEF91A48947F00690AB7 /* MySoketAPI.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8483D4711A46DA0200FD2E86 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8483D4551A46DA0200FD2E86 /* Alex Chat */;
-			targetProxy = 8483D4701A46DA0200FD2E86 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8483D4631A46DA0200FD2E86 /* Main.storyboard */ = {
@@ -345,6 +305,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Franco Wankerl (MSPX69MHL7)";
 				INFOPLIST_FILE = "Alex Chat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -358,40 +319,6 @@
 				INFOPLIST_FILE = "Alex Chat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		8483D47D1A46DA0200FD2E86 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Alex ChatTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alex Chat.app/Alex Chat";
-			};
-			name = Debug;
-		};
-		8483D47E1A46DA0200FD2E86 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Alex ChatTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alex Chat.app/Alex Chat";
 			};
 			name = Release;
 		};
@@ -414,14 +341,7 @@
 				8483D47B1A46DA0200FD2E86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		8483D47C1A46DA0200FD2E86 /* Build configuration list for PBXNativeTarget "Alex ChatTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8483D47D1A46DA0200FD2E86 /* Debug */,
-				8483D47E1A46DA0200FD2E86 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

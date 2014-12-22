@@ -7,21 +7,37 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
-
-@end
+#import "MyServer.h"
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
+    //startMyServre(127.12,1001);
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - Buttons click
+
+-(IBAction) onStartServerButtonClick
+{
+    [_indicator startAnimating];
+    int port = [[_tfPortNumber text] intValue];
+    [self startServerWithPort:port];
+    
+}
+
+-(IBAction) onStopServerButtonClick
+{
+    [_indicator stopAnimating];
+}
+
+#pragma mark - Start server
+
+-(void) startServerWithPort:(int) port
+{
+    
 }
 
 @end
